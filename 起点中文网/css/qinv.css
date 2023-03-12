@@ -1,0 +1,320 @@
+body{
+    text-align: left;
+    color: #262626;
+    font-family: PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+}
+.headA{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    background-color: #f7f7f7;
+    text-align: center;
+    color: #262626;
+}
+.head-boxA{
+    width: 1200px;
+    height: 35px;
+    margin:0 auto;
+     /*background-color: red;*/
+}
+.head-box-leftA{
+    width: 429px;
+    height: 35px;
+    float: left;
+    /* background-color: pink; */
+}
+.head-box-leftA a:nth-child(2){
+    box-sizing: border-box;
+    width: 80px;
+    height: 36px;
+    max-width: 80px;
+    padding: 0 1px;
+    margin-right: 10px;
+    margin-bottom: -1px;
+    text-align: center;
+    line-height: 36px;
+    color: #575757;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    background-color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+    transition: all .3s linear;
+    float: left;
+}
+.head-box-leftA a{
+    width: 80px;
+    height: 35px;
+    overflow: hidden;
+    line-height: 35px;
+    text-align: center;
+    color: grey;
+    float: left;
+    font-size: 12px;
+    transition: color .3s,background-color .3s;
+}
+
+
+.OrighinGIRL{
+    width: 100%;
+    float: left;
+}
+.OrighinGIRL-head{
+    width: 980px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+.OrighinGIRL-head-banner{
+    width: 980px;
+    height: 49px;
+    background-image: url("../images/20211221133933ypkguqqvp9.jpg");
+    background-size: 100%;
+    /*animation: banner 9s infinite;*/
+    float: left;
+}
+.OrighinGIRL-head-footer{
+    width: 980px;
+    height: 84px;
+    background-color: yellow;
+    float: left;
+}
+.OrighinGIRL-head-footer-BOX{
+    width: 980px;
+    height: 71px;
+    float: left;
+}
+.OrighinGIRL-head-footer-BOX-right{
+    overflow: hidden;
+    width: 120px;
+    height: 40px;
+    background: #fff;
+    margin-top: 22px;
+    float: right;
+}
+.OrighinGIRL-head-footer-BOX-left1{
+    width: 219px;
+    height: 56px;
+    margin: 15px 84px 0 0;
+    float: left;
+}
+.OrighinGIRL-head-footer-BOX-left1-a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/logo.9379c.png) no-repeat;
+    transition: color .3s,background-color .3s;
+    text-decoration: none;
+    color: #262626;
+    outline: 0;
+}
+.OrighinGIRL-head-footer-BOX-left2{
+    width: 410px;
+    height: 40px;
+    margin-top: 22px;
+    float: left;
+}
+.OrighinGIRL-head-footer-BOX-left2-p{
+    float: left;
+    overflow: hidden;
+    width: 348px;
+    height: 38px;
+    border: 1px solid #dbdbdb;
+    border-right-color: rgb(219, 219, 219);
+    border-radius: 20px 0 0 20px;
+}
+.OrighinGIRL-head-footer-BOX-left2-p-input{
+    font: 14px/38px PingFangSC-Regular,'-apple-system',Simsun;
+    width: 333px;
+    height: 38px;
+    margin: 0 0 0 15px;
+}
+.OrighinGIRL-head-footer-BOX-left2-label{
+    float: left;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 0 20px 20px 0;
+    background-color: #ff5e66;
+    cursor: pointer;
+}
+.OrighinGIRL-head-footer-BOX-left2-label i{
+
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.OrighinGIRL-head-footer2{
+    width: 980px;
+    height: 40px;
+    float: left;
+    background-color: red;
+}
+
+/*<!--中间的那条线-->*/
+
+.OrighinGIRL-xian{
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    float: left;
+}
+.OrighinGIRL2{
+    width: 100%;
+    float: left;
+}
+.OrighinGIRL2-head{
+    width: 980px;
+    /*height: 442px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+.OrighinGIRL-HEAD{
+    width: 100%;
+    height: 442px;
+    float: left;
+}
+.OrighinGIRL2-head-LEFT{
+    width: 230px;
+    height: 442px;
+    float: left;
+    background-color: blue;
+}
+
+.OrighinGIRL2-head-RIGHT{
+    width: 750px;
+    height: 441px;
+    float: right;
+    background-color: yellow;
+}
+
+
+
+.OrighinGIRL2-HEAD3{
+    width: 980px;
+    height: 110px;
+    margin-bottom: 40px;
+    background-color: red;
+    float: left;
+}
+
+
+
+.OrighinGIRL2-HEAD4{
+    width: 980px;
+    height: 469px;
+    float: left;
+    background-color: blue;
+}
+.OrighinGIRL2-HEAD4-box{
+    overflow: hidden;/*隐藏超出盒子的内容*/
+    margin-bottom: 20px;
+}
+.OrighinGIRL2-HEAD4-box-LEFT{
+    width: 230px;
+    height: 595px;
+    margin-right: 20px;
+    float: left;
+    z-index: 1;/**/
+    background-color: yellow;
+}
+.OrighinGIRL2-HEAD4-box-LEFT:last-child{
+    margin-right: 0;
+}
+
+
+/*一个盒子,没用的盒子*/
+.OrighinGIRL2-HEAD4S{
+    width: 100%;
+    /*height: 1500px;*/
+    /*z-index: -1;*/
+    background-color: #ffffff;
+    float: left;
+}
+/*一个盒子,没用的盒子*/
+
+.OrighinGIRL2-HEAD5-banner{
+    /*margin-top: 14px;*/
+    /*margin-bottom: 14px;*/
+    width: 980px;
+    height: 100px;
+    float: left;
+    background-color: red;
+}
+.OrighinGIRL2-HEAD5-box{
+    width: 980px;
+    height: 574px;
+    float: left;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+
+.OrighinGIRL2-HEAD5-box-UL{/*用这个封装起来而已*/
+    /*float: left;*/
+}
+.OrighinGIRL2-HEAD5-box-UL1{
+    /*float: left;*/
+}
+.OrighinGIRL2-HEAD5-box-li{
+    width: 230px;
+    height: 246.6px;
+    margin: 0 20px 20px 0;
+    float: left;
+    background-color: yellow;
+}
+.OrighinGIRL2-HEAD5-box-liX{
+    width: 230px;
+    height: 246.6px;
+    margin: 0 0 20px 0;
+    float: left;
+    background-color: yellow;
+}
+
+
+/*结尾*/
+.OrighinGIRL3{
+    width: 100%;
+    background-color: #fafafa;
+    float: left;
+}
+.OrighinGIRL3-box{
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

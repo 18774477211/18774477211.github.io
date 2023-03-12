@@ -1,0 +1,189 @@
+/*为排行专门写的代码样式开始*/
+.rankingMiddleBox{/*!--意思:排行 中间 盒子-->*/
+    width: 100%;
+    height: 1050px;
+    /*background-color: red;*/
+    float: left;
+}
+.rankingMiddleBox-BoxSize{
+    width: 1200px;
+    height: 1050px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    color: #262626;
+    text-align: left;
+}
+.rankingBox-LEFT{
+    float: left;
+    width: 216px;
+    height: 786px;
+    margin-right: 30px;
+    /*background-color: yellowgreen;*/
+}
+.box-listLI{
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.box-listLI-a{
+    text-align: center;
+    color: #ed4259;
+    font-weight: 700;
+}
+.box-listLI-a i{
+    font-size: 12px;
+    line-height: 12px;
+    margin: -3px 0 0 8px;
+    vertical-align: middle;
+}
+.rankingBox-LEFT-p{
+    border-bottom: 1px solid #e6e6e6;
+    margin: 17px 0;
+}
+.rankingBox-LEFT-h3{
+    cursor: default;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-family: Simsun;
+}
+.rankingBox-LEFT-UlList{
+    font-size: 14px;
+    line-height: 1;
+    font-family: PingFangSC-Regular,-apple-system,Simsun;
+    margin-bottom: 20px;
+}
+.rankingBox-LEFT-UlList-a{
+    color: #262626;
+    outline: none;
+    transition: all .2s linear;
+}
+.rankingBox-LEFT-UlList:hover a{
+    color: #ed4259;
+}
+/*右边的盒子样式开始*/
+.rankingBox-RIGHT{
+    width: 954px;
+    height: 1030px;
+    float: right;
+    /*background-color: yellow;*/
+}
+.rankingBox-RIGHT-headBox{
+    width: 954px;
+    height: 85.5px;
+    margin-bottom: 24px;
+    float: left;
+}
+.rankingBox-RIGHT-headBox-head{
+    width: 954px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.rankingBox-RIGHT-headBox-head-p{
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 400;
+
+}
+.rankingBox-RIGHT-headBox-head-a{
+    color: #666;
+    float: right;
+    font: 12px/1 PingFangSC-Regular,-apple-system,Simsun;
+    margin-top: 12px;
+    transition: all .3s linear;
+}
+.rankingBox-RIGHT-headBox-head-a:hover{
+    color: #ed4259;
+}
+.rankingBox-RIGHT-headBox-head-p span{
+    color: #666;
+    text-align: left;
+    font: 12px/1 PingFangSC-Regular,-apple-system,Simsun;
+    margin-top: 12px;
+}
+.rankingBox-RIGHT-headBox-footer{
+    width: 942px;
+    height: 40px;
+    background: #f7f6f2;
+    /*font-size: 0;*/
+    padding-left: 12px;
+    float: left;
+}
+.rankingBox-RIGHT-headBox-footer-p{
+    color: #a6a6a6;
+    cursor:pointer;
+}
+.rankingBox-RIGHT-headBox-footer-A{
+    font-family: Simsun;
+    font-size: 12px;
+    color: #ed4259;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.rankingBox-RIGHT-headBox-footer-a{
+    color: #a6a6a6;
+    font-family: Simsun;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: left;
+    transition: all .3s linear;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.rankingBox-RIGHT-headBox-footer-a:hover{
+    color: #ed4259;
+}
+/*footer样式开始*/
+.rankingBox-RIGHT-footerBox{
+    width: 954px;
+    height: 900px;
+    float: left;
+    /*background-color: blue;*/
+}
+/*为排行专门写的代码样式结束*/
+/*右边的盒子样式结束*/
+
+
+/*对搬运代码的样式进行有目的的修改开始*/
+.head5-box2-footer-box-head-leftX{
+    width: 216px;
+    height: 450px;
+    float: left;
+    /*margin-right: 30px;*/
+    /*position: relative;*/
+    z-index: 1;
+}
+.head5-box2-footer-box-head-left-listX{
+    width: 100%;
+    height: 450px;
+    /*background-color: pink;*/
+    float: left;
+}
+/*对搬运代码的样式进行有目的的修改结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

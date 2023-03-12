@@ -1,0 +1,366 @@
+body{
+    display: block;
+}
+.freeOfChargeBOX{
+    display: block;
+    width: 100%;
+    height: 1799px;
+    margin: 0 auto;
+    float: left;
+}
+.freeOfChargeBOX-box{
+    width: 1200px;
+    height: 1799px;
+    margin: 0 auto;
+    /*float: left;*/
+    /*因为第一个盒子已经浮动,并把里面的盒子的浮动为居中,所以里面第二个盒子不需浮动,里面盒子套娃的话也只需从第三个盒子开始浮动到第二个盒子内左或内右*/
+
+    /*background-color: red;*/
+}
+.freeOfChargeBOX-HEAD{
+    width: 1200px;
+    height: 40px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+    color: #262626;
+    text-align: left;
+}
+.freeOfChargeBOX-HEAD-head{
+    background: #fff;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-top: 2px solid #ed4259;
+    height: 39px;
+    margin-bottom: -1px;
+    width: 128px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-family: FZZCYSK;
+    font-weight: 400;
+}
+.freeOfChargeBOX-HEAD-head-a{
+    color: #ed4259;
+    font-size: 18px;
+    line-height: 38px;
+    cursor: pointer;
+    text-align: center;
+    font-family: FZZCYSK;
+    font-weight: 400;
+}
+.freeOfChargeBOX-HEAD-head1{
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    width: 130px;
+    font-family: FZZCYSK;
+    font-weight: 400;
+}
+.freeOfChargeBOX-HEAD-head-a1{
+    align-items: center;
+    color: #a6a6a6;
+    display: block;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 44px;
+}
+.freeOfChargeBOX-FOOTER{
+    width: 1200px;
+    height: 1728px;
+    float: left;
+}
+.freeOfChargeBOX-FOOTER-head{
+    width: 1200px;
+    height: 160px;
+    margin-bottom: 40px;
+    background-image: url("../images/count_down.7ebdf..png");
+    float: left;
+}
+.freeOfChargeBOX-FOOTER-footer{
+    width: 1200px;
+    height: 1528px;
+    float: left;
+}
+.freeOfChargeBOX-FOOTER-footer-left{
+    width: 954px;
+    height: 1528px;
+    float: left;
+    min-height: 400px;
+}
+.freeOfChargeBOX-FOOTER-footer-left1{
+    padding-bottom: 50px;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1{
+    /*padding-top: 0;*/
+    border-top: 1px solid #e6e6e6;
+    height: 162px;
+    padding-top: 25px;
+    *vertical-align: bottom;
+    width: 954px;
+    /*background-color: yellow;*/
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxImg{
+    height: 136px;
+    margin-right: 16px;
+    position: relative;
+    width: 102px;
+    float: left;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxImg-a{
+    width: 102px;
+    height: 136px;
+    overflow: hidden;/*不显示超过对象的内容*/
+    box-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxImg-a-img{
+    width: 102px;
+    height: 136px;
+    text-align: left;
+}
+
+/**/
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt{
+    margin-top: 5px;
+    width: 542px;
+    height: 182.73px;
+    float: left;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-h4{
+    text-align: left;
+    font-family: Microsoft YaHei;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-h4-a{
+    text-align: left;
+    color: #262626;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-h4-a:hover{
+    color: #ed4259;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p1{
+    height: 16px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    font-family: PingFangSC-Regular,-apple-system,Simsun;
+    font-size: 12px;
+    color: #a6a6a6;
+    text-align: left;
+    line-height: 16px;
+
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p1-a1{
+    color: #a6a6a6;
+    transition: all .2s linear;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p1-a2{
+    color: #a6a6a6;
+    transition: all .2s linear;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p1-a1:hover{
+    color: #ed4259;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p1-a2:hover{
+    color: #262626;
+}
+
+
+
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p2{
+    color: #666;
+    font-size: 14px;
+    height: 48px;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p3{
+    text-align: left;
+    line-height: 22px;
+    white-space: nowrap;
+    font-family: PingFangSC-Regular,-apple-system,Simsun;
+    font-size: 12px;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p3-a{
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(38,35,146,1);
+    transition: all .3s linear;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-boxTxt-p3-a:hover{
+    color: rgba(70,50,255,1);
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox{
+    width: 224px;
+    height: 136px;
+    margin-top: 5px;
+    float: left;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer{
+    width: 224px;
+    height: 76px;
+    padding-top: 35px;
+    text-align: right;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer-p{
+    font: 18px/24px Arial;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer-s{
+    font-size: 12px;
+    color: #a6a6a6;
+    line-height: 24px;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer2{
+    background-color: red;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font: 14px/32px PingFangSC-Regular,-apple-system,Simsun;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    width: 98px;
+    transition: color .3s,background-color .3s;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer2:hover{
+    background: #ed4259;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer3{
+    border-color: #3f5a93;
+    color: #3f5a93;border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    font: 14px/32px PingFangSC-Regular,-apple-system,Simsun;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    width: 98px;
+    transition: color .3s,background-color .3s;
+}
+.freeOfChargeBOX-FOOTER-footer-left-li1-ImgTxtBox-footer3:hover{
+    border-color: rgba(27,124,255,1);
+    color: rgba(27,124,255,1);
+    background-color: rgba(215,223,255,1)
+}
+.freeOfChargeBOX-FOOTER-footer-RIGHT{
+    width: 216px;
+    height: 1049px;
+    float: right;
+    /*background-color: pink;*/
+}
+.freeOfChargeBOX-FOOTER-footer-right-h3{
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 4px;
+    text-align: left;
+    border-bottom: 1px solid #666666;
+    font-family: FZZCYSK;
+    font-weight: 700;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li{
+    box-sizing: border-box;
+    padding: 15px 0;
+    width: 216px;
+    height: 128px;
+    border-bottom: 1px solid #e5e5e5;
+    /*background-color: yellowgreen;*/
+}
+
+
+
+.freeOfChargeBOX-FOOTER-footer-right-li-leftBOX{
+    float: left;
+    height: 96px;
+    margin-right: 12px;
+    /*position: relative;*/
+    width: 72px;
+    z-index: 2;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-leftBOX-a{
+    box-shadow: 0 0 6px rgba(0,0,0,.35);
+    display: block;
+    height: 96px;
+    overflow: hidden;
+    width: 72px;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-leftBOX-IMG{
+    height: 96px;
+    width: 72px;
+}
+
+
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX{
+    left: 90px;
+    /*position: absolute;*/
+    width: 130px;
+    z-index: 1;
+    float: right;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-h2{
+    font: 16px/21px PingFangSC-Regular,HelveticaNeue-Light,Helvetica Neue Light,Microsoft YaHei,"sans-serif";
+    height: 21px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-h2-a{
+    float: left;
+    color: #262626;
+    outline: none;/*搞轮廓的,留着以后弄*/
+    text-decoration: none;
+    transition: all .3s linear;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-h2-a:hover{
+    color: #ed4259;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-p1{
+    height: 16px;
+    margin-bottom: 8px;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-p1-a{
+    color: #a6a6a6;
+    float: left;
+    font: 12px/16px PingFangSC-Regular,-apple-system,Simsun;
+    transition: color .3s,background-color .3s;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-p1-a:hover{
+    color: #262626;
+}
+.freeOfChargeBOX-FOOTER-footer-right-li-rightBOX-p2{
+    color: #666;
+    font: 12px/20px PingFangSC-Regular,-apple-system,Simsun;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
